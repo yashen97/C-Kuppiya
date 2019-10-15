@@ -11,8 +11,12 @@ int main()
     printf("Enter value for 2nd variable : "); ///Asking the user to input value for variable num2
     scanf("%d", &num2); ///Scanning the value which the user input and assign that value to num2
 
-    total = num1 + num2; /// The logic, total = 1st variable + 2nd variable . (The value calculated by adding the numbers is assigning to the variable called total)
-
+    total = num1 + num2;
+    /// The logic, total = 1st variable + 2nd variable . (The value calculated by adding the numbers is assigning to the variable called total)
+     if(num1==0 && num2==0){
+     printf("zero detected\n");
+     }
+    
     printf("The answer is %d ", total); ///Displaying the value in total(variable)
 
     return 0; /// Check and informs the OS whether the code executed successfully (not necessary)
